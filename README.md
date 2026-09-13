@@ -1,2 +1,18 @@
-# smart-irrigation-decision-system
-Beginner agriculture project exploring data-driven irrigation recommendations using soil moisture and rainfall information.
+# Smart Irrigation Decision System
+
+**Type:** Self-directed student prototype  
+**Dataset:** Synthetic sensor/weather-style data.
+
+## Objective
+Build a simple decision-support prototype that combines soil moisture and rainfall forecast to produce an irrigation recommendation.
+
+## Tools
+Python, Pandas
+
+## Logic
+- Low soil moisture + little forecast rain → Irrigate
+- Moderate soil moisture + very little forecast rain → Consider irrigation
+- Otherwise → No irrigation
+
+## Important
+This is an educational rule-based prototype, not an agronomic prescription. Real deployment would require crop-specific evapotranspiration, soil properties, weather forecasts, irrigation-system constraints and field validation.
